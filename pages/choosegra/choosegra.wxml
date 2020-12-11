@@ -1,0 +1,14 @@
+<!--pages/choosegra/choosegra.wxml-->
+<image class="back" src="/img/back1.png"></image>
+<image class="gragh1" src="/img/dialog.png"></image>
+<image class="gragh2" src="/img/dialog.png"></image>
+<image class="gragh3" src="/img/dialog.png"></image>
+<view class="grade1" bindtap="chose" data-gra="{{1}}">
+    一年级
+</view>
+<view class="grade2" bindtap="chose" data-gra="{{2}}">
+    二年级
+</view>
+<view class="grade3" bindtap="chose" data-gra="{{3}}">
+    三年级
+</view>
