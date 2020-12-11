@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/count/count",
+    "pages/end/end",
+    "pages/wrongset/wrongset",
+    "pages/choosetype/choosetype",
+    "pages/choosegra/choosegra",
+    "pages/choosesem/choosesem",
+    "pages/userdef/userdef"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "口算",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
