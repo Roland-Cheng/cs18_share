@@ -1,0 +1,17 @@
+<!--pages/choosesem/choosesem.wxml-->
+<view class="con">
+    <view class="media_left"></view>
+    <view class="left" bindtap="choose" data-n="{{1}}">上学期</view>
+    <view class="media"></view>
+    <view class="right" bindtap="choose" data-n="{{2}}">下学期</view>
+    <view class="media_right"></view>
+</view>
+
+
+<view class="every title" bindtap="tocount"data-n="{{index}}" wx:for="{{list}}" wx:key="index">
+    <view class="nothing" hover-class="none" hover-stop-propagation="false">
+    </view>
+    <view class="title-style">{{item.title}}</view>
+    <view class="nothing" hover-class="none" hover-stop-propagation="false">
+    </view>
+</view>
