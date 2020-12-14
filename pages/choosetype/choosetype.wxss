@@ -1,0 +1,125 @@
+/* pages/choosetype/choosetype.wxss */
+page{
+  background-color:#FFFFFF;
+}
+.every{
+  display: inline-block;
+  width: 100%;
+  height: 80vh;
+  margin-top: 20vh;
+}
+.title{
+  position: absolute;
+  right:12vw;
+  top:5vh;
+  width:16%;
+  height: 16vh;
+}
+.title1{
+  position: absolute;
+  right:29vw;
+  top:14vh;
+  width:40%;
+  height: 11vh;
+}
+.title3{
+  position: absolute;
+  right:29vw;
+  top:30vh;
+  width:40%;
+  height: 11vh;
+}
+.title4{
+  position: absolute;
+  right:29vw;
+  top:46vh;
+  width:40%;
+  height: 11vh;
+}
+.title5{
+  position: absolute;
+  right:29vw;
+  top:62vh;
+  width:40%;
+  height: 11vh;
+}
+.title6{
+  position: absolute;
+  right:29vw;
+  top:78vh;
+  width:40%;
+  height: 11vh;
+}
+.title2{
+  width: 100%;
+  height: 100vh;
+}
+.word{
+width:40%;
+height: 20vh;
+position: absolute;
+top:6vh;
+right:44vw;
+font-size: 35rpx;
+font-style: italic;
+}
+.every1>button{
+border:none;
+}
+
+.every1{
+  position: absolute;
+  top: 15.8vh;
+  right:33vw;
+  height: 10vh;
+  margin-top: 1vh;
+  margin-bottom: 2rpx;
+  font-size: 60rpx;
+ font-stretch: condensed;
+ font-family: cursive;
+ 
+}
+.every2{
+  position: absolute;
+  top: 33vh;
+  right: 34vw;
+  height: 10vh;
+  margin-top: 0vh;
+  margin-bottom: 2rpx;
+  font-size: 60rpx;
+ font-stretch: condensed;
+ font-family: cursive;
+}
+.every3{
+  position: absolute;
+  top: 48.9vh;
+  right: 34vw;
+  height: 10vh;
+  margin-top: 0vh;
+  margin-bottom: 2rpx;
+  font-size: 60rpx;
+ font-stretch: condensed;
+ font-family: cursive;
+}
+.every4{
+  position: absolute;
+  top: 65vh;
+  right: 34vw;
+  height: 9vh;
+  margin-top: 0vh;
+  margin-bottom: 2rpx;
+  font-size: 60rpx;
+ font-stretch: condensed;
+ font-family: cursive;
+}
+.every5{
+  position: absolute;
+  top: 81vh;
+  right: 34vw;
+  height: 10vh;
+  margin-top: 0vh;
+  margin-bottom: 2rpx;
+  font-size: 60rpx;
+ font-stretch: condensed;
+ font-family: cursive;
+}
