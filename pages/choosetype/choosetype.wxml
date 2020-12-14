@@ -1,0 +1,15 @@
+<!--pages/choosetype/choosetype.wxml-->
+<image class="title2" src="/img/back1.png"></image>
+<image class="title1" src="/img/dialog.png"></image>
+<image class="title3" src="/img/dialog.png"></image>
+<image class="title4" src="/img/dialog.png"></image>
+<image class="title5" src="/img/dialog.png"></image>
+<image class="title6" src="/img/dialog.png"></image>
+
+<view class="every1" bindtap='topage3' data-n="{{1}}">加法运算</view>
+<view class="every2" bindtap='topage3'data-n="{{2}}">减法运算</view>
+<view class="every3" bindtap='topage3'data-n="{{3}}">乘法运算</view>
+<view class="every4" bindtap='topage3'data-n="{{4}}">除法运算</view>
+<view class="every5" bindtap='topage3'data-n="{{15}}">混合运算</view>
+
+
