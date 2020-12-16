@@ -1,0 +1,134 @@
+/* pages/end/end.wxss */
+page{
+  background-color: #fff;
+}
+.graph3{
+  position: fixed;
+  width: 105%;
+  height: 100%;
+  top: 0vh;
+  left: -34rpx;
+}
+.bt1{
+  position: absolute;
+  width:250rpx;
+  height:70rpx;
+  top:70rpx;
+  left:130rpx;
+  background-color:#fff; 
+  font-size: 30rpx;
+ /* border-radius: 8px;
+  border: 2px solid #FFA54F;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bt2{
+  position: absolute;
+  width:250rpx;
+  height:70rpx;
+  top:70rpx;
+  left:370rpx;
+  background-color:#fff; 
+  font-size: 30rpx;
+  /*border-radius: 8px;
+  border: 2px solid #FFA54F;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graph1{
+  position: absolute;
+  width:650rpx;
+  height:50vh;
+  top:21vh;
+  left:50rpx;
+}
+.graph2{
+  position: absolute;
+  width:250rpx;
+  height:250rpx;
+  top:24rpx;
+  left:480rpx;
+}
+.text1{
+  position: absolute;
+  width:550rpx;
+  height:3vh;
+  top:43vh;
+  left:150rpx;
+  font-size: 30rpx;
+
+}
+.text2{
+  position: absolute;
+  width:550rpx;
+  height:3vh;
+  top:47vh;
+  left:120rpx;
+  font-size: 30rpx;
+}
+.text3{
+  position: absolute;
+  width:550rpx;
+  height:3vh;
+  top:51vh;
+  left:290rpx;
+  font-size: 30rpx;
+}
+.text4{
+ position: absolute;
+  width: 150rpx;
+  height: 50rpx;
+  top: 7vh;
+  left: 260rpx;
+  font-size: 30rpx;
+}
+.text5{
+  position: absolute;
+  width: 150rpx;
+  height: 50rpx;
+  top: 7vh;
+  left: 500rpx;
+  font-size: 30rpx;
+}
+.graph4 {
+  position: fixed;
+  width: 300rpx;
+  height: 25vh;
+  top: 73vh;
+  left: 370rpx;
+}
+.getback{
+  position: absolute;
+  width: 250rpx;
+  height: 7vh;
+  top: 80vh;
+  left: 50rpx;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button::after{
+  border: none;
+}
+.scr{
+  position: fixed;
+  top:15vh;
+}
+.equation{
+  width: 300rpx;
+  margin-top: 3vh;
+  margin-left: 100rpx;
+  display: inline-block;
+}
+.result{
+  width: 200rpx;
+  margin-top: 3vh;
+  display: inline-block;
+}
+.cb{
+  margin-top: 3vh;
+  display: inline-block;
+}
