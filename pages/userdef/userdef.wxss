@@ -1,0 +1,136 @@
+/* pages/userdef/userdef.wxss */
+.title{
+  border: 2rpx solid #EEE9BF;
+ color: #FF8C69;
+  margin-top: 6vh;
+  text-align: center;
+  font-size: 50rpx;
+  width: 50%;
+}
+.title1{
+position: absolute;
+left: 6vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 12vh;
+}
+.title2{
+position: absolute;
+left: 6vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 25vh;
+}
+.title3{
+position: absolute;
+left: 6vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 38vh;
+}
+.title4{
+position: absolute;
+left: 6vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 51vh;
+}
+.title5{
+position: absolute;
+left: 6vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 64vh;
+}
+.confirm{
+  position: absolute;
+left: 35vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 75vh;
+}
+.title6{
+position: absolute;
+left: 6vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 16vh;
+}
+.title7{
+position: absolute;
+left: 6vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 34vh;
+}
+.title8{
+position: absolute;
+left: 6vw;
+font-family: cursive;
+font-size: 40rpx;
+top: 48vh;
+}
+.a{
+  margin-top: 3vh;
+  width:28rpx;
+  height: 28rpx;
+}
+.b{
+  position: absolute;
+  top: 2vh;
+  right: 14vw;
+  height: 30vh;
+  width: 30vw;
+}
+.c{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+.d{
+  position: absolute;
+  top: 10vh;
+  left: 3vw;
+  height: 8vh;
+  width: 93%;
+ 
+}
+.e{
+  position: absolute;
+  top: 23vh;
+  left: 3vw;
+  height: 8vh;
+  width: 93%;
+ 
+}
+.f{
+  position: absolute;
+  top: 36vh;
+  left: 3vw;
+  height: 8vh;
+  width: 93.5%;
+ 
+}
+.g{
+  position: absolute;
+  top: 49vh;
+  left: 3vw;
+  height: 8vh;
+  width: 93%;
+ 
+}
+.h{
+  position: absolute;
+  top: 62vh;
+  left: 3vw;
+  height: 8vh;
+  width: 93%;
+ 
+}
+.i{
+  position: absolute;
+  top: 75vh;
+  left: 35vw;
+  height: 9vh;
+  width: 30%;
+}

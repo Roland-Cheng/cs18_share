@@ -1,0 +1,9 @@
+<!--pages/wrongset/wrongset.wxml-->
+<image class='graph3'src="/img/1546db4111d18b62e24ba1ad8bb2e83a.png " ></image>
+<image class="image1"src="/img/dialog2.png"></image>
+<view class="text1">错题本</view>
+<scroll-view class="scr" scroll-y="true" style="height: 70vh">
+<view class="text2" wx:if="{{hid}}">空空如也~~</view>
+<view wx:for="{{wrongtitles}}"wx:key="{{index}}">{{item}}</view>
+</scroll-view>
+

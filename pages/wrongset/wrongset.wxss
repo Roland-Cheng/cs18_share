@@ -1,0 +1,34 @@
+/* pages/wrongset/wrongset.wxss */
+.graph3{
+  position: fixed;
+  width:109%;
+  height:100%;
+  top:0vh;
+  left:-40rpx;
+}
+.image1{
+  position: absolute;
+  top:4vh;
+  left: 225rpx;
+  width: 300rpx;
+  height: 12vh;
+}
+.text1{
+  position: absolute;
+  margin-top:6vh;
+  margin-left: 275rpx;
+  font-size: 60rpx;
+}
+.scr{
+  position: absolute;
+  top: 20vh;
+  left: 100rpx;
+  width: 550rpx;
+  text-align: center;
+  border: 2rpx solid #666;
+  border-radius: 20rpx;
+}
+.text2{
+  margin-top: 30vh;
+  font-size: 70rpx;
+}
