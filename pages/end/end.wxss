@@ -17,8 +17,6 @@ page{
   left:130rpx;
   background-color:#fff; 
   font-size: 30rpx;
- /* border-radius: 8px;
-  border: 2px solid #FFA54F;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,8 +29,6 @@ page{
   left:370rpx;
   background-color:#fff; 
   font-size: 30rpx;
-  /*border-radius: 8px;
-  border: 2px solid #FFA54F;*/
   display: flex;
   align-items: center;
   justify-content: center;

@@ -5,21 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
-    /*pageBackgroundColor:'#5cb85c'*/
   },
   togra(){
     wx.navigateTo({
-      url: '../choosegra/choosegra',
+      url: '../choosegra/choosegra',//跳转选择年级
     })
   },
   totype(){
     wx.navigateTo({
-      url: '../choosetype/choosetype',
+      url: '../choosetype/choosetype',//跳转定制题目类型
     })
   },
   towrong(){
     wx.navigateTo({
-      url: '../wrongset/wrongset',
+      url: '../wrongset/wrongset',//跳转错题本
     })
   },
   /**

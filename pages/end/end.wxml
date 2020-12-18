@@ -1,26 +1,3 @@
-<!--pages/end/end.wxml-->
-<!--<image class='graph3'src="/img/1546db4111d18b62e24ba1ad8bb2e83a.png " ></image>
-<button class="bt1" bindtap="change" data-n="{{0}}">成绩单</button>
-<button class="bt2"bindtap="change"data-n="{{1}}">奖状</button>
-<view wx:if="{{choose==1}}">
-<image class='graph1'src="/img/c048f1a8e9294e629828a85f64465d1a.png" ></image>
-<text class="text1">亲爱的同学：</text>
-<text class="text2">在本次的口算测试中，您的成绩为XX分</text>
-<text class="text3">特发此状，以资鼓励</text>
-</view>
-<view wx:if="{{choose==0}}">
-<text class="text4">题数：</text>
-<text class="text5">分数：</text>
-<scroll-view class="scr" scroll-y="true" style="height: 60vh">
-<view class="every" wx:for="{{list.equations}}"wx:key="{{index}}">
-<view class="equation" style="{{!list.rights[index]?'color:red':''}}">{{item}}{{list.input[index]}}</view>
-<view class="result"wx:if="{{!list.rights[index]}}"style="{{!list.rights[index]?'color:red':''}}">{{list.results[index]}}</view>
-<checkbox checked="{{!list.rights[index]?true:false}}" color="red" bindtap="changCheck" data-n="{{index}}" ></checkbox>
-</view>
-</scroll-view>
-<image class='graph4'src="/img/671959cc514773820b775b22cd93ae15.png  " ></image>
-</view>
-<button class="getback" bindtap="toindex">返回首页</button>-->
 <image class='graph3'src="/img/back1.png  " ></image>
 <view wx:if="{{choose==0}}">
 <text class="text4">题数：{{len}}</text>

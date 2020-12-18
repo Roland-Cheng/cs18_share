@@ -5,12 +5,10 @@
   {{formula}}={{val}}
 </view>
 
-<!--<input class="right" value="" bindinput="input"></input>-->
 <view class="con">
   <image class="toast" hidden="{{hid}}" src="{{source}}"></image>
 </view>
 
-<!--<image class="back" src="/img/计算器背景.png"></image>-->
 <image class="back" src="/img/36175327072baf4e722f78ff0ba022a1.png  "></image>
 <image class="every1" bindtap="input2" data-n="1" src="/img/1.png"></image>
 <image class="every2" bindtap="input2" data-n="2" src="/img/2.png"></image>

@@ -6,17 +6,7 @@
 <image class="h" src="/img/talk3.png"></image>
 <image class="i" src="/img/talk3.png"></image>
 <image class="c" src="/img/back3.png"></image>
-<!--<view class="title6">运算数</view>
-<view class="title7">运算符</view>
-<view class="title8">运算结果</view>
-<view class="title1"> 生成题目个数： <image class="a" src="/img/dec.png" bindtap="dec"></image> {{num}} <image class="a" src="/img/add.png" bindtap="add"></image></view>
 
- <view class="title2"> 运算数范围： <image class="a" src="/img/dec.png" bindtap="dec1"></image> {{number1}} <image class="a" src="/img/add.png" bindtap="add1"></image>到       <image class="a" src="/img/dec.png" bindtap="dec2">-</image> {{number2}} <image class="a" src="/img/add.png" bindtap="add2">+</image> </view>
-
- <view class="title3"> 运算符个数： <image class="a" src="/img/dec.png" bindtap="dec3"></image> {{number3}} <image class="a" src="/img/add.png" bindtap="add3"></image></view>
-
- <view class="title4"> 结果的最小值： <image class="a" src="/img/dec.png" bindtap="dec5">-</image> {{number5}} <image class="a" src="/img/add.png" bindtap="add5">+</image></view>
- <view class="title5"> 结果的最大值： <image class="a" src="/img/dec.png" bindtap="dec6">-</image> {{number6}} <image class="a" src="/img/add.png" bindtap="add6">+</image></view>-->
  <view class="title1"> 生成题目个数：<text style="color:red" bindtap="dec" >-</text> {{num}} <text style="color:red" bindtap="add" >+</text></view>
  <view class="title2"> 运算数范围：<text style="color:red" bindtap="dec1" >-</text> {{number1}} <text style="color:red" bindtap="add1" >+ </text>到 <text style="color:red" bindtap="dec2" >-</text> {{number2}} <text style="color:red" bindtap="add2" >+</text> </view>
 

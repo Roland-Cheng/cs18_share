@@ -46,10 +46,6 @@
 .every{
   border-radius: 10rpx;
   display: flex;
-  /* font-weight: 5rpx;
-  text-align: center;
-  line-height: 10vh;
-  margin-bottom: 2vh; */
 }
 .title-style {
   display: block;

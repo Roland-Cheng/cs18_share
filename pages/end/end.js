@@ -82,15 +82,6 @@ Page({
   },
   toindex() {
     this.storage();
-    /*wx.getStorage({
-      key: 'wrongtitles',
-      success: function (res) {
-        console.log(res)
-      },
-      fail: function (res) {
-        console.log(res)
-      }
-    })*/
     wx.reLaunch({
       url: '../index/index',
     })

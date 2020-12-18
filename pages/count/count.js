@@ -29,7 +29,7 @@ Page({
     })
     //console.log(this.data.rem)
     var result = -1;
-    var formu = "";
+    var formu = "";  //对结果进行判断整理
     while (result == -1 || result < this.data.rem.minres || (this.data.rem.maxres > 0 && result > this.data.rem.maxres)) {
       formu = this.produce();
       result = this.getResult(formu);
@@ -40,12 +40,11 @@ Page({
     })
   },
   random(max, min) {
-    //console.log(Math.floor((Math.random()) * (max - min + 1) + min))
+    //用来产生范围内的随机数
     return Math.floor((Math.random()) * (max - min + 1) + min);
   },
   /**生成算式 */
   produce() {
-    //console.log("produce");
     var a = 0;
     var b = 0;
     var formu = "";
@@ -69,9 +68,7 @@ Page({
   },
   /**得到结果 */
   getResult(equation) {
-    //console.log(equation)
-    equation = equation.replace(/×/g, '*').replace(/÷/g, '/'); //将乘除替换
-    //console.log(equation)
+    equation = equation.replace(/×/g, '*').replace(/÷/g, '/'); //将中文乘除替换
     return this.evalRpn(this.dal2Rpn(equation));
   },
   /**判断是否是运算符 */
@@ -102,8 +99,6 @@ Page({
         inputStack.push(cur);
       }
     }
-    //console.log(inputStack);
-    //console.log('step one');
     while (inputStack.length > 0) {
       var cur = inputStack.shift();
       var val = '';
@@ -112,7 +107,6 @@ Page({
         cur = inputStack.shift();
       }//得到操作数
       if (inputStack.length == 0 && !this.isOperator(cur)) val = val + cur;//单独处理最后一个数字
-      //console.log(val)
       outputQueue.push(parseInt(val));//将操作数压栈
       if (this.isOperator(cur)) {//处理运算符
         if (cur == '(') {
@@ -131,11 +125,9 @@ Page({
             outputQueue.push(outputStack.pop());
           }
           outputStack.push(cur);
-          //console.log(outputStack)
         }
       }
     }
-    //console.log('step two');
     if (outputStack.length > 0) {
       if (outputStack[outputStack.length - 1] == ')' || outputStack[outputStack.length - 1] == '(') {
         throw "error: unmatched ()";
@@ -144,12 +136,9 @@ Page({
         outputQueue.push(outputStack.pop());
       }
     }
-    //console.log('step three');
-    //console.log("波兰表达式：")
-    //console.log(outputQueue)
     return outputQueue;
   },
-  evalRpn(rpnQueue) {
+  evalRpn(rpnQueue) { //计算逆波兰表达式
     var outputStack = [];
     while (rpnQueue.length > 0) {
       var cur = rpnQueue.shift();
@@ -157,9 +146,6 @@ Page({
       if (!this.isOperator(cur)) {
         outputStack.push(cur);
       } else {
-        if (outputStack.length < 2) {
-          //throw "unvalid stack length";
-        }
         var sec = outputStack.pop();
         var fir = outputStack.pop();
         var res1 = this.getRes(fir, sec, cur);
@@ -169,13 +155,11 @@ Page({
         }
       }
     }
-    if (outputStack.length != 1) {
-      //throw "unvalid expression";
-    } else {
+    if (outputStack.length == 1) {
       console.log("结果")
       console.log(outputStack[0])
       return outputStack[0];
-    }
+    } 
   },
   /**只有一个运算符结果 */
   getRes(fir, sec, cur) {
@@ -287,7 +271,7 @@ Page({
           }
         case 15:
           {
-            var signals1 = "+/×÷";
+            var signals1 = "+-×÷";
             return signals1[this.random(3, 0)];
             break;
           }

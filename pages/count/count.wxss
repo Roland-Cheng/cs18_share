@@ -1,23 +1,10 @@
 /* pages/count/count.wxss */
-/* pages/index1/index1.wxss */
-
-/* pages/index2/index2.wxss */
-
-/*.back{
-  width: 100%;
-  height: 600rpx;
-}*/
-
 .biankuang {
   position: absolute;
   width: 600rpx;
   height: 27vh;
   left: 70rpx;
   top: 6vh;
-  /*margin-bottom: 8vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;*/
 }
 .feiji {
   position: fixed;
@@ -25,10 +12,6 @@
   height: 17vh;
   left: 10rpx;
   top: -4vh;
-  /*margin-bottom: 8vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;*/
 }
 .con {
   position: absolute;
