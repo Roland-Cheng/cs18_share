@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml--> 
+<image class='graph3'src="/img/70f66af5a9d3fdcefb37eea7f9e7759f.png " ></image>
+<image class='graph1'src="/img/b9278f5b61cefcdafb0f071086cc47d9.png " ></image>
+<image class='graph2'src="/img/b9278f5b61cefcdafb0f071086cc47d9.png " ></image>
+<image class='graph4'src="/img/b9278f5b61cefcdafb0f071086cc47d9.png " ></image>
+<button class='sign1' bindtap="togra" id="1">按年级口算</button> 
+<button class='sign2' bindtap="totype" id="2">按题型口算</button>
+<button class='sign3' bindtap="towrong" id="2">错题本</button>

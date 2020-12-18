@@ -1,0 +1,89 @@
+/* pages/index/index.wxss */
+.title{
+  position:absolute;
+  margin-top:-150rpx;
+  font-size: 40rpx;
+  margin-left:300rpx;
+
+}
+/*.page{
+  display:block;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}*/
+.sign1{
+  position: fixed;
+  width:400rpx;
+  height:10vh;
+  top:17vh;
+  left:175rpx;
+  background-color:#fff; 
+  font-size: 60rpx;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graph1{
+  position: absolute;
+  width:500rpx;
+  height:15vh;
+  top:14vh;
+  left:125rpx;
+}
+.sign2{
+  position: fixed;
+  width:400rpx;
+  height:10vh;
+  top:40vh;
+  left:175rpx;
+  background-color:#fff; 
+  font-size: 60rpx;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graph2{
+  position: absolute;
+  width:500rpx;
+  height:15vh;
+  top:37vh;
+  left:125rpx;
+}
+.graph3{
+  position: fixed;
+  width:118%;
+  height:100%;
+  top:0vh;
+  left:0rpx;
+}
+.graph4{
+  position: absolute;
+  width:500rpx;
+  height:15vh;
+  top:60vh;
+  left:125rpx;
+}
+.sign3{
+  position: fixed;
+  width:400rpx;
+  height:10vh;
+  top:63vh;
+  left:175rpx;
+  background-color:#fff; 
+  font-size: 60rpx;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button::after{
+  border: none;
+}
