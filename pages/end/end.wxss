@@ -86,7 +86,7 @@ page{
 }
 .text5{
   position: absolute;
-  width: 150rpx;
+  width: 300rpx;
   height: 50rpx;
   top: 7vh;
   left: 500rpx;

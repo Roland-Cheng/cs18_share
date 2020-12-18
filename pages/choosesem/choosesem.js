@@ -1,5 +1,5 @@
 // pages/choosesem/choosesem.js
-const app=getApp();
+const app = getApp();
 Page({
 
   /**
@@ -8,56 +8,46 @@ Page({
   data: {
     list11: [{
       title: "5以内加减法",
-      oprations: 1,
-      signal:[5],
+      oprations: 1,//运算符数
+      signal: [5],//运算符类型，5表示+-
       max: [5],
-      min: [1],
-      maxplusres: 0,
+      min: [1],//操作数范围
+      maxplusres: 0,//乘法最大结果
       maxres: 0,
-      minres: 0
+      minres: 0//最终结果限制
     },
     {
       title: "10以内加减法",
-      oprations: 1,
-      signal:[5],
+      oprations: 1,//运算符数
+      signal: [5],//运算符类型，5表示+-
       max: [10],
-      min: [1],
-      maxplusres: 0,
+      min: [1],//操作数范围
+      maxplusres: 0,//乘法最大结果
       maxres: 0,
-      minres: 0
+      minres: 0//最终结果限制
     },
     {
       title: "15以内加减法",
-      oprations: 1,
-      signal:[5],
+      oprations: 1,//运算符数
+      signal: [5],//运算符类型，5表示+-
       max: [5],
-      min: [1],
-      maxplusres: 0,
+      min: [1],//操作数范围
+      maxplusres: 0,//乘法最大结果
       maxres: 0,
-      minres: 0
+      minres: 0//最终结果限制
     },
     {
       title: "20以内加减法",
-      oprations: 1,
-      signal:[5],
+      oprations: 1,//运算符数
+      signal: [5],//运算符类型，5表示+-
       max: [5],
-      min: [1],
-      maxplusres: 0,
+      min: [1],//操作数范围
+      maxplusres: 0,//乘法最大结果
       maxres: 0,
-      minres: 0
+      minres: 0//最终结果限制
     }
     ],
     list12: [
-      // {
-      // title: "20以内加法",
-      //         oprations: 1,//运算符数
-      //         signal:[1],//运算符类型，5表示+-
-      //         max: [19],
-      //         min: [1],//操作数范围
-      //         maxplusres: 0,//乘法最大结果
-      //         maxres: 20,
-      //         minres:0//最终结果限制
-      // },
       {
         title: "20以内非退位减法",
         oprations: 1,//运算符数
@@ -88,17 +78,6 @@ Page({
         maxres: 20,
         minres: 0//最终结果限制
       },
-      // {
-      // title: "20以内的连减",
-      //         oprations: 2,//运算符数
-      //         signal:[2],//运算符类型，5表示+-
-      //         max: [19],
-      //         min: [1],//操作数范围
-      //         maxplusres: 0,//乘法最大结果
-      //         maxres: 20,
-      //         minres:10//最终结果限制
-      // },
-
       {
         title: "大于20的两位数加1位数",
         oprations: 1,//运算符数
@@ -170,18 +149,6 @@ Page({
       maxres: 0,
       minres: 10//最终结果限制
     },
-
-      // {
-      // title: "1000减两三位数",
-      //         oprations: 1,//运算符数
-      //         signal:[2],//运算符类型，5表示+-
-      //         max: [1000,999],
-      //         min: [1000,10],//操作数范围
-      //         maxplusres: 0,//乘法最大结果
-      //         maxres: 0,
-      //         minres:0//最终结果限制
-      // },
-
     ],
     list22: [
       {
@@ -306,8 +273,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    //console.log(options)
-    app.globalData.inputnum=10;
+    app.globalData.inputnum = 10;
     this.data.grade = options.grade;
     this.judge();
   },

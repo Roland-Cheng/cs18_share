@@ -15,9 +15,8 @@ Page({
     
   },
   chose(e) {
-    //console.log(e)
     wx.navigateTo({
-      url: '../choosesem/choosesem?grade=' + e.currentTarget.dataset.gra,
+      url: '../choosesem/choosesem?grade=' + e.currentTarget.dataset.gra, //调度选择学期的页面
     })
   },
   /**

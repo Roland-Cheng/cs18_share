@@ -24,7 +24,7 @@
 <image class='graph3'src="/img/back1.png  " ></image>
 <view wx:if="{{choose==0}}">
 <text class="text4">题数：{{len}}</text>
-<text class="text5">分数：{{score}}</text>
+<text class="text5">分数：{{score}}\n\n是否加入错题本</text>
 <scroll-view class="scr" scroll-y="true" style="height: 60vh">
 <view class="every" wx:for="{{list.equations}}"wx:key="{{index}}">
 <view class="equation" style="{{!list.rights[index]?'color:red':''}}">{{item}}{{list.input[index]}}</view>
